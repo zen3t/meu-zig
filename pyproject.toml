@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "meu-zig"
+version = "0.1.0"
+description = ""
+authors = ["zen3t <josealvess6154@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ignr = "^2.2"
+[tool.poetry.scripts]
+build-zig = "build_zig:compile_zig"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
