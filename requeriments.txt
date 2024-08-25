@@ -1,0 +1,2 @@
+Se você estiver executando o script em um ambiente diferente (como IPython ou Jupyter), o caminho relativo pode não estar correto. Tente usar um caminho absoluto para a biblioteca:
+export LD_LIBRARY_PATH=/caminho/completo/para/o/seu/diretorio:/home/zeneto/meu-zig/:

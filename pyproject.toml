@@ -8,6 +8,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 ignr = "^2.2"
+numpy = "^2.1.0"
+opencv-python = "^4.10.0.84"
+ctype = "^7.4.2"
+ipython = "^8.26.0"
 [tool.poetry.scripts]
 build-zig = "build_zig:compile_zig"
 
